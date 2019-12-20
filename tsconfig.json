@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitThis": true,
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "noUnusedParameters": false,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "noStrictGenericChecks": true,
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom",
+      "webworker"
+    ]
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true,
+    "silent": false
+  },
+  "typeRoots": ["node_modules/@types/"],
+  "types": [
+    "angular",
+    "angular-ui-bootstrap",
+    "angular-ui-router"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
